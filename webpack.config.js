@@ -64,7 +64,8 @@ const config = {
     ]
   },
   devServer: {
-    contentBase: './dist'
+    contentBase: './dist',
+    port: 3030
   },
   plugins: [
     new LodashModuleReplacementPlugin,
