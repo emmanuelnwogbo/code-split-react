@@ -2,7 +2,7 @@
   "name": "code-split-react",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "src/index.js",
   "scripts": {
     "clean": "rm dist/bundle.js",
     "build-dev": "webpack -d --mode development",
